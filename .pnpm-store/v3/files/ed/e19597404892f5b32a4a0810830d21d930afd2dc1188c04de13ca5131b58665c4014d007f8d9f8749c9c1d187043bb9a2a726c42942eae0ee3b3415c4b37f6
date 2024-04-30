@@ -3,7 +3,7 @@ import type {
   FullReloadPayload,
   PrunePayload,
   UpdatePayload,
-} from '.pnpm/vite@5.2.10/node_modules/vite/types/hmrPayload.js'
+} from './hmrPayload'
 
 export interface CustomEventMap {
   'vite:beforeUpdate': UpdatePayload
