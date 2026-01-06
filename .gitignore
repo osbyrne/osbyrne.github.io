@@ -1,0 +1,27 @@
+# Zola
+public/
+sass-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+target/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
